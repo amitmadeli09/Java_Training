@@ -2,7 +2,7 @@ package Day1;
 
 public class referenceVar {
 
-    public static void changeName(Person p) {
+    public static void changeName(person p) {
         p.name = "abc to Changed";
     }
 
@@ -13,11 +13,11 @@ public class referenceVar {
         System.out.println("The num1 is: " + num1);
         System.out.println("The num2 is: " + num2);
 
-        Person p1 = new Person("Amit");
+        person p1 = new person("Amit");
 
         System.out.println("p1 = " + p1);
 
-        Person p2 = p1;
+        person p2 = p1;
 
         System.out.println("p2 = " + p2);
 
