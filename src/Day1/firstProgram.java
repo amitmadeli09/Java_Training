@@ -1,4 +1,4 @@
-package Basic_Coding;
+package Day1;
 
 public class firstProgram {
 
