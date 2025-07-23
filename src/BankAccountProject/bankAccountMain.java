@@ -1,4 +1,4 @@
-package Projects;
+package BankAccountProject;
 
 public class bankAccountMain {
 
