@@ -1,4 +1,4 @@
-package Day4;
+package dayFour;
 
 abstract class payments{
 	double amount;
@@ -30,7 +30,7 @@ class upiPayment extends payments{
 		System.out.println("UPI Payment Done Successfully");
 	}
 }
-public class paymentsUsingAbstraction {
+public class PaymentsUsingAbstraction {
 	public static void main(String [] args) {
 		payments p1 = new creditCardPayment(4000);
 		p1.makePayment();

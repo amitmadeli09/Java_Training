@@ -1,4 +1,4 @@
-package Day4;
+package dayFour;
 
 //multiple inheritance using interfaces
 interface ecommercePayments{
@@ -35,7 +35,7 @@ class netBankingPayment extends paymentSystems{
 		showSuccessMessage();
 	}
 }
-public class paymentsUsingInterfaces {
+public class PaymentsUsingInterfaces {
 
 	public static void main(String[] args) {
 		
