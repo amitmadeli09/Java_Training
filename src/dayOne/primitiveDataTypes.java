@@ -1,4 +1,4 @@
-package dayone;
+package dayOne;
 
 public class primitiveDataTypes {
 

@@ -1,4 +1,4 @@
-package dayone;
+package dayOne;
 
 class person {
 	String name;
