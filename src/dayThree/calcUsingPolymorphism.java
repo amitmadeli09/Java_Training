@@ -1,4 +1,4 @@
-package Day3;
+package dayThree;
 import java.util.Scanner;
 
 //Polymorphism using method overriding

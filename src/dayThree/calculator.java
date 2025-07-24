@@ -1,4 +1,4 @@
-package Day3;
+package dayThree;
 
 public class calculator {
 	class Calculator1 {

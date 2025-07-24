@@ -1,4 +1,4 @@
-package Day3;
+package dayThree;
 
 class Student{
 	String name;
