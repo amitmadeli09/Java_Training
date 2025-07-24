@@ -1,4 +1,4 @@
-package BankAccountProject;
+package projects;
 
 class bankAccount{
 	private String accountHolder;
