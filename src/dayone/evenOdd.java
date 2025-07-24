@@ -1,4 +1,4 @@
-package Day1;
+package dayone;
 import java.util.Scanner;
 
 public class evenOdd {
