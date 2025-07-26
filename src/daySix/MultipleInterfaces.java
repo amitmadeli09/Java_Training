@@ -16,7 +16,7 @@ interface Subtraction {
 
 interface Multiplication {
     default double multiply(double a, double b) {
-        return a * b;
+        return a * b;  
     }
 }
 
