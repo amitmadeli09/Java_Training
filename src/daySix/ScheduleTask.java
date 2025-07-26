@@ -11,15 +11,15 @@ public class ScheduleTask {
         HashMap<Integer, String> map=new HashMap<>();
 
         // mapping the time with tasks
-        map.put(9,"Breakfast (9:00 - 9:30 AM)");
-        map.put(10,"Coding (9:30 - 12:30 PM)");
-        map.put(11,"Coding (9:30 - 12:30 PM)");
-        map.put(12,"Bath and Lunch (12:30 - 2:00 PM)");
-        map.put(13,"Bath and Lunch (12:30 - 2:00 PM)");
-        map.put(14,"Reading (2:00 - 4:00 PM)");
-        map.put(15,"Reading (2:00 - 4:00 PM)");
-        map.put(16,"Nap (4:00 - 6:00 PM)");
-        map.put(17,"Nap (4:00 - 6:00 PM)");
+        map.put(9,"Breakfast (9:00 - 9:30)");
+        map.put(10,"Coding (9:30 - :12:30)");
+        map.put(11,"Coding (9:30 - 12:30)");
+        map.put(12,"Bath and Lunch (12:30 - 14:00 )");
+        map.put(13,"Bath and Lunch (12:30 - 14:00)");
+        map.put(14,"Reading (14:00 - 16:00 PM)");
+        map.put(15,"Reading (14:00 - 16:00 PM)");
+        map.put(16,"Nap (16:00 - 18:00 PM)");
+        map.put(17,"Nap (16:00 - 18:00 PM)");
 
         //Using scanner class for taking the input
         Scanner sc = new Scanner(System.in);
