@@ -1,6 +1,6 @@
-package day7;
+package day8;
 
-class Multi1 implements Runnable{
+class A extends Thread{
 	public void run() {
 		for(int i=0;i<10;i++) {
 			System.out.println("Morning");
@@ -12,7 +12,7 @@ class Multi1 implements Runnable{
 		}
 	}
 }
-class Multi2 implements Runnable {
+class B extends Thread {
 	public void run() {
 		for(int i=0;i<10;i++) {
 			System.out.println("Night");
@@ -25,23 +25,23 @@ class Multi2 implements Runnable {
 	}
 }
 
-public class MultiThreadingImplement {
+public class MultiThreadingExtend {
 
 	public static void main(String[] args) {
 		
-		Runnable obj1 = new Multi1();
-		Runnable obj2 = new Multi2();
+		A obj1 = new A();
+		B obj2 = new B();
 		
 //		System.out.println(obj1.getPriority());
 //		obj1.setPriority(Thread.MAX_PRIORITY);
 		
-		Thread t1 = new Thread(obj1);
-		Thread t2 = new Thread(obj2);
-		
-		t1.start();
-		
-		t2.start();
-
+		obj1.start();
+		try {
+			Thread.sleep(5);
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		obj2.start();
 
 	}
 
