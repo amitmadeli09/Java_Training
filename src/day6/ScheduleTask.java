@@ -1,4 +1,4 @@
-package daySix;
+package day6;
 
 import java.util.HashMap;
 import java.util.Random;
