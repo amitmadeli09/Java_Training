@@ -1,4 +1,4 @@
-package LearningFundamentals;
+package learningFundamentals;
 
 public class assessmentTest1 {
 

@@ -1,4 +1,4 @@
-package LearningFundamentals;
+package learningFundamentals;
 import java.util.Scanner;
 
 
