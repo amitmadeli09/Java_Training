@@ -1,8 +1,8 @@
 package dayOne;
 
-class person {
+class Person {
 	String name;
-	person(String name){
+	Person(String name){
 		this.name = name;
 	}
 	public String toString() {
