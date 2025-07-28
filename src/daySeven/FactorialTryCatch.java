@@ -11,7 +11,7 @@ public class FactorialTryCatch {
 		int fact=1;
 		try {
 			if(num < 1) {
-				throw new Exception("Input number cannot be negative: " + num);
+				throw  new Exception("Input number cannot be negative: " + num);
 			}else {
 				for(int i=1 ; i<= num ; i++) {
 					fact *= i;
@@ -21,7 +21,7 @@ public class FactorialTryCatch {
 		}
 		catch(Exception e) {
 			System.out.println("The exception is "+e);
-			e.getStackTrace();
+			e.printStackTrace();
 		}
 
 	}
