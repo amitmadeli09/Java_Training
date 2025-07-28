@@ -80,6 +80,7 @@ public class CalcUsingPolymorphism extends Operation{
 				o1.operation(a,b);
 				break;
 		}
+		sc.close();
 
 	}
 

@@ -15,6 +15,7 @@ public class oddOrEven {
 		}else {
 			System.out.println("The Number is Odd");
 		}
+		sc.close();
 	}
 
 }
