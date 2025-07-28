@@ -1,6 +1,6 @@
-package dayTwo;
+package day2;
 
-public class maxAndMin {
+public class MaxAndMin {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

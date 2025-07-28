@@ -1,6 +1,6 @@
-package dayTwo;
+package day2;
 
-public class controlFlows {
+public class ControlFlows {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
