@@ -1,9 +1,8 @@
-package dayOne;
+package day1;
 
 public class CommandLineArg {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		if (args.length < 2) {
             System.out.println("Please provide two numbers.");
             return;
