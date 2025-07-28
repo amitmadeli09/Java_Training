@@ -1,4 +1,4 @@
-package dayFour;
+package day4;
 
 //multiple inheritance using interfaces
 interface ecommercePayments{
