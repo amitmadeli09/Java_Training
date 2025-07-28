@@ -14,6 +14,7 @@ public class EvenOdd {
 		else {
 			System.out.println("Number is Even");
 		}
+		sc.close();
 
 	}
 
