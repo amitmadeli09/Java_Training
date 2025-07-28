@@ -1,6 +1,6 @@
-package dayThree;
+package day3;
 
-public class carModel {
+public class CarModel {
 
 		class CarDetails {
 			private String model;
@@ -21,7 +21,7 @@ public class carModel {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		carModel c1 = new carModel();
+		CarModel c1 = new CarModel();
 		CarDetails car = c1.new CarDetails();
 		car.setModel("BMW", 2000);
 		System.out.println("Model name is: "+ car.getModel());

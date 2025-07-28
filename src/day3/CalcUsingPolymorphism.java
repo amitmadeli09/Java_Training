@@ -1,4 +1,4 @@
-package dayThree;
+package day3;
 import java.util.Scanner;
 
 //Polymorphism using method overriding
@@ -39,7 +39,7 @@ class Remainder extends Operation{
 		System.out.println("Remainder of entered number is: "+(a%b));
 	}
 }
-public class calcUsingPolymorphism extends Operation{
+public class CalcUsingPolymorphism extends Operation{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package dayThree;
+package day3;
 
 class Vehicle1 {
 
@@ -15,7 +15,7 @@ class Car extends Vehicle1 {
 	
 }
 
-public class vehicle {
+public class Vehicle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package dayThree;
+package day3;
 
 class Student{
 	String name;
@@ -9,7 +9,7 @@ class Student{
 		System.out.println("Name: " + name + "\nAge: " + age + "\nRoll Number: " + roll_number);		
 	}
 }
-public class studentInfo {
+public class StudentInfo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
