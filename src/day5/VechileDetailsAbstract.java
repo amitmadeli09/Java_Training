@@ -1,4 +1,4 @@
-package dayFive;
+package day5;
 
 abstract class Vechile {
 	abstract void speed();

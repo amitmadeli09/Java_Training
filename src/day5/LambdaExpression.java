@@ -1,4 +1,4 @@
-package dayFive;
+package day5;
 
 interface LambdaCalculator {
 	void operate (double a,double b);

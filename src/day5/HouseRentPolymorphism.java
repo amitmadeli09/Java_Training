@@ -1,4 +1,4 @@
-package dayFive;
+package day5;
 
 class Rent{
 	int rent;
