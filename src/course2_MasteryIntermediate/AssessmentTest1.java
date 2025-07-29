@@ -1,7 +1,7 @@
 package course2_MasteryIntermediate;
 import java.util.Random;
 
-public class Assignment1 {
+public class AssessmentTest1 {
 
 	public static void main(String[] args) {
 		long randomTenDigitNum = GenerateTenDigitRandomNum();
