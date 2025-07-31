@@ -45,7 +45,7 @@ public class SerializableProgram {
 
     	Employee employee = new Employee();
     	employee.setId(101);
-    	employee.setName("Name One");
+    	employee.setName("Amit Madeli");
 
         try {
             // Ensure the directory exists: "C:\\Users\\Gme\\Desktop\\Wipro\\File3.txt"
