@@ -55,7 +55,7 @@ public class SerializableProgram {
             objectOut.writeObject(employee);
 
             objectOut.close();
-            fileOut.close();
+            fileOut.close();   
 
             System.out.println("Serialized data written to file.");
         } catch (IOException e) {
