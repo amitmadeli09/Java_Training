@@ -11,7 +11,7 @@ public class FileReaderExample {
         try (FileReader readFile = new FileReader(filePath)) {
             int character;
             System.out.println("File content:");
-            while ((character = readFile.read()) != -1) {
+            while ((character = readFile.read())!=-1) {
                 System.out.print((char) character);
             }
         } catch (IOException e) {

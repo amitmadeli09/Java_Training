@@ -12,5 +12,4 @@ public class FileWriterExample2 {
 		System.out.println("File Written Successfully");
 		file.close();
 	}
-
 }
