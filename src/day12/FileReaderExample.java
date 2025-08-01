@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileReaderExample {
 
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\Gme\\Desktop\\Wipro\\New folder\\file5.txt";
+        String filePath = "C:\\Users\\Gme\\Desktop\\Wipro\\New folder\\File5.txt";
 
         try (FileReader readFile = new FileReader(filePath)) {
             int character;
